@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--使用.开头的路线是相对路径
+   
+   ./表示当前目录
+   ../表示上一级目录
+   
+   root 
+      -index.html  1.jpg/   ./1.jpg
+      -1.jpg
+    root
+      -index.html  hello/1.jpg
+      -hello
+         - 1.jpg
+    root
+        -index.html hello/adc/1.jpg
+        -hello
+            - adc
+                -1.jpg
+    root
+        -1.jpg
+        -hello
+        index。html   。。/1.jpg
+    root
+         -1.jpg
+        -hello
+            -abc
+                -index。html  。。/。。/1.jpg
+    root
+        -heihei
+            -1.jpg
+        -hello
+            -adc
+                -index.html ../../heihei/../1.jpg
+    
+   -->
+    <img src="1.JPG">
+    <img src="./1.JPG">
+</body>
+
+</html>
