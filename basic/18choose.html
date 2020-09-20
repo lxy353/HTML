@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        div span{
+            color:aliceblue
+        }
+        .box1 span{
+            color:aqua
+        }
+    </style>
+</head>
+    
+<body>
+    <!--
+      元素之间的关系
+      父元素
+          直接包含子元素的元素的父元素
+        子元素
+            直接被父元素包含的元素
+        祖先元素
+            直接间接包含后代元素
+        后代元素
+            直接间接包含祖先元素
+        兄弟
+        -->
+    <div class="box1">
+        i am div
+        <span>i am div in span</span>
+        <p>
+            i am p from div
+            <span>
+                i am span from div
+            </span>
+        </p>
+    </div>
+    <span>
+        i am span from body
+    </span>
+</body>
+
+</html>
